@@ -1,11 +1,10 @@
-name    'rtyler-jenkins'
-version '0.0.1'
-source 'git://github.com/rtyler/puppet-jenkins.git'
-author 'R. Tyler Croy <tyler@monkeypox.org>'
+name 'rafaelfc-jenkins'
+version '1.0.0'
+
+author 'Rafael Felix Correa <rafael.felix@gmail.com>'
 license 'Apache 2.0'
+project_page 'git://github.com/rafaelfelix/puppet-jenkins.git'
+source 'git://github.com/rafaelfelix/puppet-jenkins.git'
 summary 'Manage the Jenkins continuous integration service with Puppet'
 description 'Manage the Jenkins continuous integration service with Puppet'
-project_page 'https://github.com/puppetlabs/puppetlabs-account://github.com/rtyler/puppet-jenkins'
-
-## Add dependencies, if any:
-dependency 'puppetlabs/stdlib', '>= 2.0.0'
+dependency 'puppetlabs/stdlib', '>=2.0.0'
